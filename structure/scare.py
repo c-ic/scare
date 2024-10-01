@@ -153,8 +153,8 @@ class Scare(AutoShardedBot):
         #await self.browser.close()
         #await self.session.close()
 
-        for file in os.listdir("./screenshots"):
-            os.remove(f"./screenshots/{file}")
+        #for file in os.listdir("./screenshots"):
+        #    os.remove(f"./screenshots/{file}")
 
         return await super().close()
 
