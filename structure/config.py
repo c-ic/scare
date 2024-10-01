@@ -6,35 +6,28 @@ class ShardStatus:
 
 class SCARE:
     token: str = (
-        "hi"
+        "OTEyMjY4MzU4NDE2NzU2ODE2.GKVyfs.wB38bR_e-UF3P1gDGIuXEE7j3CX4EJaOPAoM98"
     )
     verified_scare: str = (
-        "hi"
+        "OTEyMjY4MzU4NDE2NzU2ODE2.GKVyfs.wB38bR_e-UF3P1gDGIuXEE7j3CX4EJaOPAoM98"
     )
     owners: list = [
-        326720789569339395,
-        1188955485462872226,
-        1150974001317957673,
-        915350867438338058,
-        1107903478451408936,
-        596752300756697098,
-        1074668481867419758,
-        1137846765576540171,
-        1280856653230505994
+        1083861728380584038,
+        1107903478451408936
     ]
     workers: list = [
-        "h"
+        ""
     ]
-    captcha: str = "asdasdas"
-    proxy: str = "asdasd"
+    captcha: str = ""
+    proxy: str = ""
 
 
 class Database:
-    host: str = "sdfsdfsdf"
-    database: str = "sdfdsfsf"
-    port: str = "sdff"
-    user: str = "fdsfds"
-    password: str = "sdfdsf"
+    host: str = "aws-0-us-east-1.pooler.supabase.com"
+    database: str = "postgres"
+    port: str = "6543"
+    user: str = "postgres.incpddplqzpbxmhdotvu"
+    password: str = "oOYk1rnF9RrathJQ"
 
 
 class Paginator:
