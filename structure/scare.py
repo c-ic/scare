@@ -150,11 +150,8 @@ class Scare(AutoShardedBot):
         self.invite_regex = r"(https?://)?(www.|canary.|ptb.)?(discord.gg|discordapp.com/invite|discord.com/invite)/?[a-zA-Z0-9]+/?"
 
     async def close(self):
-        if self.browser:
-            await self.browser.close()
-
-        if getattr(self, "session"):
-            await self.session.close()
+        await self.browser.close()
+        await self.session.close()
 
         for file in os.listdir("./screenshots"):
             os.remove(f"./screenshots/{file}")
